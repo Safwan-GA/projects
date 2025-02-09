@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
-// const mongoURI = "mongodb+srv://hariprada1003:hari123@cluster0.yqgdg9e.mongodb.net/gofoodmern?retryWrites=true&w=majority";
-const mongoURI ="mongodb://hariprada1003:hari123@ac-nuv1xcc-shard-00-00.yqgdg9e.mongodb.net:27017,ac-nuv1xcc-shard-00-01.yqgdg9e.mongodb.net:27017,ac-nuv1xcc-shard-00-02.yqgdg9e.mongodb.net:27017/gofoodmern?ssl=true&replicaSet=atlas-qtzwot-shard-0&authSource=admin&retryWrites=true&w=majority" 
+// const mongoURI = "mongoURL";
+const mongoURI ="mongodb://mongo_atlas_url" 
 const mongoDB = async () => {
   try {
     await mongoose.connect(mongoURI, { useNewUrlParser: true });
