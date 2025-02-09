@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="./index.css">
+  <script src="./index.js"></script>
+  <title>Rock, Paper, Scissors Animation</title>
+</head>
+<body>
+  <div id="game-container">
+    <div id="hand" class="hand">Click on any button for the challenge.</div>
+    <button onclick="playGame('rock')">Rock</button>
+    <button onclick="playGame('paper')">Paper</button>
+    <button onclick="playGame('scissors')">Scissors</button>
+  </div><br>
+  
+  <div id="countdownTimer">Time Left: 5s</div><br>
+
+  <div title="ResultOfTheAtttempt"></div><br>
+  <table style="width: 100%;">
+    <tr >
+      <td class="totalCountOfAttempt"><span class="totalCountOfAttemptspan">total Count Of Attempt : 0</span></td>
+      <td class="victoryCount" ><span name="victoryCount">Number of times you won : 0</span></td>
+    </tr>
+  </table>
+  <br>
+</body>
+</html>
